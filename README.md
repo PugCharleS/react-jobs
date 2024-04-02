@@ -1,9 +1,65 @@
-# React + Vite
+# React Jobs (React + Vite Project) 🚀
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Description 📝
 
-Currently, two official plugins are available:
+This is a simple React application that uses Vite as the build tool and json-server as the backend. The application is a job listing website where users can view, add, update, and delete react developer jobs.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-# react-jobs
+## Tools 🧰
+
+-   React ⚛️
+-   Vite 🖥️
+-   TailwindCSS 🌬️
+-   ESLint 🚫
+-   Prettier 🎨
+-   json-server 🗄️
+-   toast 🍞
+-   react-router-dom 🚦
+
+## Setup 🛠️
+
+#### Cloning the repo 📋
+
+```bash
+git clone https://github.com/PugCharleS/react-jobs.git
+```
+
+#### Install dependencies 🔽
+
+```bash
+npm install
+```
+
+#### Running the server 🖥️
+
+```bash
+npm run server
+```
+
+#### Running the app 🖥️
+
+```bash
+npm run dev
+```
+
+## Pages 📖
+
+-   Home Page
+-   Add Job Page
+-   Edit Job Page
+-   View Job Page
+-   Error Page
+
+## Components 🧩
+
+-   Navbar
+-   Form
+-   Job
+-   Loading
+-   Error
+-   NotFound
+-   Footer
+
+## API 🤝
+
+-   /api/jobs
+-   /api/jobs/:id
